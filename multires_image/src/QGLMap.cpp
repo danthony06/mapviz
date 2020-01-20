@@ -32,6 +32,8 @@
 // C++ standard libraries
 #include <cmath>
 
+#include <GL/gl.h>
+
 namespace multires_image
 {
 QGLMap::QGLMap(QWidget *parent) :

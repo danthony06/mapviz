@@ -39,6 +39,8 @@
 #include <QGLWidget>
 #include <QPalette>
 
+#include <GL/gl.h>
+
 #include <mapviz/select_frame_dialog.h>
 
 // Declare plugin

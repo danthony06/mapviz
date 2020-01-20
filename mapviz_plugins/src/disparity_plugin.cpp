@@ -47,6 +47,8 @@
 
 #include <mapviz/select_topic_dialog.h>
 
+#include <GL/gl.h>
+
 // Declare plugin
 #include <pluginlib/class_list_macros.h>
 PLUGINLIB_EXPORT_CLASS(mapviz_plugins::DisparityPlugin, mapviz::MapvizPlugin)

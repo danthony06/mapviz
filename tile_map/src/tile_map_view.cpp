@@ -46,6 +46,8 @@
 
 #include <tile_map/image_cache.h>
 
+#include <GL/gl.h>
+
 namespace tile_map
 {
   TileMapView::TileMapView() :

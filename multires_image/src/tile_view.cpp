@@ -33,6 +33,8 @@
 #include <cmath>
 #include <iostream>
 
+#include <GL/gl.h>
+
 namespace multires_image
 {
   TileView::TileView(TileSet* tiles, QGLWidget* widget) :

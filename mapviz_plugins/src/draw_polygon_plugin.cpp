@@ -49,6 +49,8 @@
 #include <mapviz/select_frame_dialog.h>
 #include <swri_transform_util/frames.h>
 
+#include <GL/gl.h>
+
 // Declare plugin
 #include <pluginlib/class_list_macros.h>
 PLUGINLIB_EXPORT_CLASS(mapviz_plugins::DrawPolygonPlugin, mapviz::MapvizPlugin)

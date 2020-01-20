@@ -38,6 +38,14 @@
 #include <cmath>
 #include <swri_math_util/constants.h>
 
+#include <QtOpenGLExtensions/QOpenGLExtensions>
+
+#ifndef GL_MULTISAMPLE
+#define GL_MULTISAMPLE  0x809D
+#endif
+
+#include <GL/gl.h>
+
 namespace mapviz
 {
 

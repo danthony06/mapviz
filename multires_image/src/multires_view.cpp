@@ -36,6 +36,8 @@
 #include <ros/ros.h>
 #include <swri_transform_util/transform_util.h>
 
+#include <GL/gl.h>
+
 namespace mapviz_plugins
 {
   MultiresView::MultiresView(multires_image::TileSet* tiles, QGLWidget* widget) :

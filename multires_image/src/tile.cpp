@@ -41,6 +41,8 @@
 
 #include <swri_math_util/math_util.h>
 
+#include <GL/gl.h>
+
 namespace multires_image
 {
   Tile::Tile(

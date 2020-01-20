@@ -49,6 +49,9 @@
 #include <mapviz/select_frame_dialog.h>
 
 #include <pluginlib/class_list_macros.h>
+
+#include <GL/gl.h>
+
 PLUGINLIB_EXPORT_CLASS(mapviz_plugins::MeasuringPlugin, mapviz::MapvizPlugin)
 
 namespace mapviz_plugins

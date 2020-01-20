@@ -52,6 +52,8 @@
 // Declare plugin
 #include <pluginlib/class_list_macros.h>
 
+#include <GL/gl.h>
+
 PLUGINLIB_EXPORT_CLASS(mapviz_plugins::MoveBasePlugin, mapviz::MapvizPlugin)
 
 namespace mapviz_plugins
