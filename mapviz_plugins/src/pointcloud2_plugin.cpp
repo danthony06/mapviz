@@ -55,6 +55,8 @@
 
 #include <mapviz/select_topic_dialog.h>
 
+#include <GL/gl.h>
+
 // Declare plugin
 #include <pluginlib/class_list_macros.h>
 

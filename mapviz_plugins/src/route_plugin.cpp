@@ -51,6 +51,8 @@
 
 #include <marti_nav_msgs/Route.h>
 
+#include <GL/gl.h>
+
 // Declare plugin
 #include <pluginlib/class_list_macros.h>
 

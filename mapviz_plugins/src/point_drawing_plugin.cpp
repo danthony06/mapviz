@@ -42,6 +42,8 @@
 #include <swri_image_util/geometry_util.h>
 #include <swri_transform_util/transform_util.h>
 
+#include <GL/gl.h>
+
 namespace mapviz_plugins
 {
   PointDrawingPlugin::PointDrawingPlugin()
